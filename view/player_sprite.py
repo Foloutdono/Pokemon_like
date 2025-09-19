@@ -20,11 +20,12 @@ class PlayerSprite(pygame.sprite.Sprite):
         self.current_animation = "walk_down"
         self.index = 0
         self.image = self.animations[self.current_animation][self.index]
-        self.rect = self.image.get_rect(topleft=position)
+        self.rect = self.image.get_rect(bottomleft=position)
+        print(self.image.get_rect(bottomleft=position), self.image.get_rect(topleft=position))
 
         # Timing
         self.timer = 0
-        self.frame_duration = 100  # ms per frame
+        self.frame_duration = 100 # ms per frame
 
     def load_animations(self):
         animations = {}
@@ -53,11 +54,12 @@ class PlayerSprite(pygame.sprite.Sprite):
             self.current_animation = animation_name
             self.index = 0
             self.timer = 0
+            self.image = self.animations[self.current_animation][self.index]
 
     def update(self, dt):
         self.timer += dt
         frames = self.animations[self.current_animation]
-        frame_time = self.data["frames"][0]["duration"]
+        frame_time = self.data["frames"][self.index]["duration"]
 
         if self.timer >= frame_time:
             self.timer = 0

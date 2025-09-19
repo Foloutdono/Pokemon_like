@@ -17,7 +17,7 @@ class MenuState:
     def update(self, dt):
         pass
 
-    def render(self):
+    def render(self, dt):
         self.screen.fill((0, 0, 0))
         text = self.font.render("Pokemon Like - Press Enter", True, (255, 255, 255))
         self.screen.blit(text, (200, 250))

@@ -14,6 +14,6 @@ class StateManager:
         if self.current_state:
             self.current_state.update(dt)
 
-    def render(self):
+    def render(self, dt):
         if self.current_state:
-            self.current_state.render()
+            self.current_state.render(dt)

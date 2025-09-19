@@ -2,11 +2,11 @@ import pygame
 
 class InputHandlerOverworld:
     actions = {
-        "move": None,
+        "move": False,
         "sprint": False,
         "quit": False,
     }
-    last_move = None
+    last_move = False
     last_direction = "down"
 
     @classmethod

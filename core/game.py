@@ -17,8 +17,8 @@ class Game:
 
     def run(self):
         while self.running:
-            dt = self.clock.tick(settings.FPS) / 1000
+            dt = self.clock.tick(settings.FPS)
             self.state_manager.handle_events()
             self.state_manager.update(dt)
-            self.state_manager.render()
+            self.state_manager.render(dt)
             pygame.display.flip()

@@ -1,0 +1,26 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "buildings.tsx": {
+            "scaleInDock": 1
+        },
+        "grass.tsx": {
+            "scaleInDock": 1
+        },
+        "objects.tsx": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "C:/proga/Pokemon_like-main/assets/maps/forest",
+    "last.objectTemplatePath": "C:/proga/Pokemon_like-main/assets/maps/forest",
+    "map.lastUsedExportFilter": "Tous les Fichiers (*)",
+    "openFiles": [
+    ],
+    "project": "sans titre.tiled-project",
+    "property.type": "float",
+    "recentFiles": [
+    ]
+}
