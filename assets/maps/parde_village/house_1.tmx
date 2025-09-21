@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="10" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="15">
+ <tileset firstgid="1" source="grass.tsx"/>
+ <tileset firstgid="3601" source="lights.tsx"/>
+ <tileset firstgid="3665" source="wood.tsx"/>
+ <tileset firstgid="3729" source="characters.tsx"/>
+ <layer id="1" name="terrains" width="10" height="9">
+  <data encoding="csv">
+0,3668,3668,3668,3684,3698,3683,3668,3668,0,
+0,3676,3677,3677,3692,3671,3691,3676,3676,0,
+0,3665,3665,3665,3700,3679,3699,3665,3665,0,
+0,3665,3665,3665,3686,3687,3688,3665,3665,0,
+0,3665,3665,3665,3665,3665,3665,3665,3665,0,
+0,3665,3665,3665,3665,3665,3665,3665,3665,0,
+0,3665,3665,3665,3665,3665,3665,3665,3665,0,
+0,3665,3665,3666,3665,3665,3665,3665,3665,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="characters" width="10" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,3730,0,0,0,0,0,0,
+0,0,0,3750,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="lights" width="10" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,3628,3602,0,3601,3601,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="collisions">
+  <object id="5" x="16" y="0" width="144" height="32"/>
+  <object id="7" x="144" y="16" width="16" height="128"/>
+  <object id="8" x="0" y="128" width="144" height="16"/>
+  <object id="9" x="0" y="0" width="16" height="128"/>
+  <object id="13" x="64" y="32" width="48" height="16"/>
+ </objectgroup>
+ <objectgroup id="2" name="doors">
+  <object id="4" x="48" y="112" width="16" height="16">
+   <properties>
+    <property name="destination_door" type="int" value="1"/>
+    <property name="destination_map" value="parde_village"/>
+    <property name="entry_direction" value="down"/>
+    <property name="number" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="14" x="80" y="48" width="16" height="16">
+   <properties>
+    <property name="destination_door" type="int" value="1"/>
+    <property name="destination_map" value="house_1_chamber"/>
+    <property name="entry_direction" value="up"/>
+    <property name="number" type="int" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

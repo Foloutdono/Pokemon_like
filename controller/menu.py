@@ -12,7 +12,7 @@ class MenuState:
             if event.type == pygame.QUIT:
                 self.state_manager.game.running = False
             if event.type == pygame.KEYDOWN and event.key == pygame.K_RETURN:
-                self.state_manager.change(OverworldState(self.screen, self.state_manager, "Parde_village"))
+                self.state_manager.change(OverworldState(self.screen, self.state_manager, "parde_village", "house_1_chamber"))
 
     def update(self, dt):
         pass

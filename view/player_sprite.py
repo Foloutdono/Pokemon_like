@@ -21,11 +21,9 @@ class PlayerSprite(pygame.sprite.Sprite):
         self.index = 0
         self.image = self.animations[self.current_animation][self.index]
         self.rect = self.image.get_rect(bottomleft=position)
-        print(self.image.get_rect(bottomleft=position), self.image.get_rect(topleft=position))
 
         # Timing
         self.timer = 0
-        self.frame_duration = 100 # ms per frame
 
     def load_animations(self):
         animations = {}

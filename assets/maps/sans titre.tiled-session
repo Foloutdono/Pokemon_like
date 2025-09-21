@@ -1,0 +1,99 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "parde_village/parde_village.tmx",
+    "expandedProjectPaths": [
+        ".",
+        "parde_village"
+    ],
+    "fileStates": {
+        "parde_village/buildings.tsx": {
+            "scaleInDock": 1
+        },
+        "parde_village/characters.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "parde_village/grass.tsx": {
+            "scaleInDock": 1
+        },
+        "parde_village/house_1.tmx": {
+            "expandedObjectLayers": [
+                3,
+                2
+            ],
+            "scale": 4,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 88,
+                "y": 56
+            }
+        },
+        "parde_village/house_1_chamber.tmx": {
+            "expandedObjectLayers": [
+                3,
+                2
+            ],
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 40,
+                "y": 39.999999999999986
+            }
+        },
+        "parde_village/lights.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "parde_village/objects.tsx": {
+            "scaleInDock": 1
+        },
+        "parde_village/parde_village.tmx": {
+            "expandedObjectLayers": [
+                6
+            ],
+            "scale": 3,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 280,
+                "y": 135.99999999999997
+            }
+        },
+        "parde_village/wood.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "D:/Projets/Pokemon_like-main/assets/tilesets/forest",
+    "last.objectTemplatePath": "D:/Projets/Pokemon_like-main/assets/maps/parde_village",
+    "map.height": 8,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 8,
+    "openFiles": [
+        "parde_village/parde_village.tmx",
+        "parde_village/house_1.tmx",
+        "parde_village/lights.tsx",
+        "parde_village/wood.tsx",
+        "parde_village/house_1_chamber.tmx",
+        "parde_village/characters.tsx"
+    ],
+    "project": "sans titre.tiled-project",
+    "property.type": "string",
+    "recentFiles": [
+        "parde_village/characters.tsx",
+        "parde_village/house_1_chamber.tmx",
+        "parde_village/wood.tsx",
+        "parde_village/lights.tsx",
+        "parde_village/house_1.tmx",
+        "parde_village/parde_village.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
