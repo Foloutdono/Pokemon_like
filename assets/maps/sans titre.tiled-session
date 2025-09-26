@@ -5,8 +5,8 @@
     },
     "activeFile": "parde_village/parde_village.tmx",
     "expandedProjectPaths": [
-        ".",
-        "parde_village"
+        "parde_village",
+        "."
     ],
     "fileStates": {
         "parde_village/buildings.tsx": {
@@ -27,8 +27,8 @@
             "scale": 4,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 88,
-                "y": 56
+                "x": 76.875,
+                "y": 71.875
             }
         },
         "parde_village/house_1_chamber.tmx": {
@@ -39,8 +39,8 @@
             "scale": 3,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 40,
-                "y": 39.999999999999986
+                "x": 80.16666666666666,
+                "y": 71.83333333333331
             }
         },
         "parde_village/lights.tsx": {
@@ -55,10 +55,10 @@
                 6
             ],
             "scale": 3,
-            "selectedLayer": 5,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 280,
-                "y": 135.99999999999997
+                "x": 177.33333333333334,
+                "y": 175
             }
         },
         "parde_village/wood.tsx": {

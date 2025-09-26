@@ -1,3 +1,4 @@
+#Alex est gay
 import pygame
 import json
 

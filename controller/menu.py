@@ -1,11 +1,13 @@
 import pygame
 from controller.overworld import OverworldState
+from view.guis.gui_menu import GuiMenu
 
 class MenuState:
     def __init__(self, screen, state_manager):
         self.state_manager = state_manager
         self.screen = screen
         self.font = pygame.font.SysFont("Arial", 40)
+        self.gui = GuiMenu(screen)
 
     def handle_events(self):
         for event in pygame.event.get():
@@ -18,6 +20,4 @@ class MenuState:
         pass
 
     def render(self, dt):
-        self.screen.fill((0, 0, 0))
-        text = self.font.render("Pokemon Like - Press Enter", True, (255, 255, 255))
-        self.screen.blit(text, (200, 250))
+        self.gui.render(dt)
